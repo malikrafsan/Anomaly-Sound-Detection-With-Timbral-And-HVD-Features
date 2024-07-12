@@ -1,0 +1,83 @@
+{
+  "hvd": {
+    "fan": [
+      "praat.hnr",
+      "RelHp.1",
+      "signal_analysis.hnr",
+      "PPF",
+      "Jitter.absolute",
+      "Fo.std",
+      "Jitter.PPQ5",
+      "Shimmer.local_db",
+      "Jitter.local",
+      "Hp.mean.1",
+      "PPE"
+    ],
+    "pump": [
+      "praat.hnr",
+      "Hp.SD.1",
+      "Jitter.local",
+      "Fo.mean",
+      "Shimmer.APQ55",
+      "PPE",
+      "PPF",
+      "Fo.std",
+      "DPF",
+      "Jitter.RAP",
+      "RelHp.1",
+      "Shimmer.local_db"
+    ],
+    "slider": [
+      "signal_analysis.hnr",
+      "Shimmer.APQ11",
+      "Jitter.APQ55",
+      "Shimmer.APQ55",
+      "praat.hnr",
+      "RelHp.1",
+      "Shimmer.APQ5",
+      "Shimmer.local_db"
+    ],
+    "valve": [
+      "Shimmer.APQ55",
+      "Shimmer.APQ5",
+      "praat.hnr",
+      "PPF",
+      "PPE",
+      "Shimmer.APQ11",
+      "Fo.mean",
+      "Shimmer.local_db",
+      "Shimmer.APQ3",
+      "Jitter.APQ55",
+      "signal_analysis.hnr",
+      "Fo.std",
+      "PVI"
+    ]
+  },
+  "timbral": {
+    "fan": [
+      "boominess",
+      "warmth",
+      "roughness"
+    ],
+    "pump": [
+      "brightness",
+      "warmth",
+      "sharpness",
+      "reverb"
+    ],
+    "slider": [
+      "brightness",
+      "warmth",
+      "reverb",
+      "depth",
+      "roughness"
+    ],
+    "valve": [
+      "brightness",
+      "hardness",
+      "warmth",
+      "roughness",
+      "sharpness"
+    ]
+  }
+}

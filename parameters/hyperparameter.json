@@ -1,0 +1,64 @@
+{
+  "hvd": {
+    "ocsvm": {
+      "kernel": "rbf",
+      "gamma": "auto",
+      "tol": 0.01,
+      "nu": 0.3,
+      "shrinking": false,
+      "max_iter": 300
+    },
+    "isoforest": {
+      "n_estimators": 150,
+      "max_samples": 1.0,
+      "contamination": 0.1,
+      "max_features": 1.0,
+      "bootstrap": false
+    },
+    "lof":{
+      "n_neighbors": 10,
+      "algorithm": "brute",
+      "leaf_size": 30,
+      "metric": "manhattan",
+      "contamination": "auto"
+    },
+    "gmm": {
+      "n_components": 5,
+      "covariance_type": "full",
+      "tol": 0.01,
+      "max_iter": 300,
+      "init_params": "random_from_data"
+    }
+  },
+  "timbral": {
+    "ocsvm": {
+      "kernel": "rbf",
+      "gamma": "auto",
+      "tol": 0.001,
+      "nu": 0.3,
+      "shrinking": true,
+      "max_iter": -1
+    },
+    "isoforest": {
+      "n_estimators": 150,
+      "max_samples": 1.0,
+      "contamination": 0.2,
+      "max_features": 1.0,
+      "bootstrap": false
+    },
+    "lof": {
+      "n_neighbors": 10,
+      "algorithm": "auto",
+      "leaf_size": 40,
+      "metric": "manhattan",
+      "contamination": 0.05
+    },
+    "gmm": {
+      "n_components": 5,
+      "covariance_type": "full",
+      "tol": 0.001,
+      "max_iter": 100,
+      "init_params": "kmeans"
+    }
+  }
+}
