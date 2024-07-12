@@ -1,0 +1,54 @@
+{
+  "timbral": {
+    "pump": {
+      "one_class_svm": 43.62365065332916,
+      "gaussian_mixture": -0.7466007378397783,
+      "local_outlier_factor": -1.6256974215884243,
+      "isoforest": -0.5444637868303985
+    },
+    "slider": {
+      "one_class_svm": 25.15000084744385,
+      "gaussian_mixture": -1.8448585698533855,
+      "local_outlier_factor": -1.3619918452760431,
+      "isoforest": -0.5181771903302518
+    },
+    "valve": {
+      "one_class_svm": 21.2536874546434,
+      "gaussian_mixture": -11.072387166283436,
+      "local_outlier_factor": -1.6990523587769457,
+      "isoforest": -0.5892930514083087
+    },
+    "fan": {
+      "one_class_svm": 47.408663361798205,
+      "gaussian_mixture": -5.0812615688451315,
+      "local_outlier_factor": -1.3564570892418515,
+      "isoforest": -0.5165377609407873
+    }
+  },
+  "hvd": {
+    "slider": {
+      "one_class_svm": 21.71891474738551,
+      "gaussian_mixture": -13.873192972931243,
+      "local_outlier_factor": -1.5219376515228018,
+      "isoforest": -0.5319923827988681
+    },
+    "pump": {
+      "one_class_svm": 18.545161082278398,
+      "gaussian_mixture": -16.966868693130934,
+      "local_outlier_factor": -1.4439045071359167,
+      "isoforest": -0.5248391969855748
+    },
+    "valve": {
+      "one_class_svm": 20.088221707758315,
+      "gaussian_mixture": -16.00277307252574,
+      "local_outlier_factor": -1.3682818854074266,
+      "isoforest": -0.5442985385975624
+    },
+    "fan": {
+      "one_class_svm": 20.781557995465494,
+      "gaussian_mixture": -15.232198202601095,
+      "local_outlier_factor": -1.3517294741713914,
+      "isoforest": -0.501097057900441
+    }
+  }
+}
