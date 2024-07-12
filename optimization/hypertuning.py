@@ -332,7 +332,6 @@ def main():
     all_params = paramize(param_grid)
     print(len(all_params))
     print(features_selected)
-    all_params = all_params[:10]
 
     results = []
     for idx in range(len(all_params)):
